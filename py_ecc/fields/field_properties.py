@@ -31,4 +31,9 @@ field_properties = {
         "fq2_modulus_coeffs": (1, 0),
         "fq12_modulus_coeffs": (2, 0, 0, 0, 0, 0, -2, 0, 0, 0, 0, 0),  # Implied + [1]
     },
+    "bls12_377": {
+        "field_modulus": 258664426012969094010652733694893533536393512754914660539884262666720468348340822774968888139573360124440321458177,  # noqa: E501
+        "fq2_modulus_coeffs": (1, 0),
+        "fq12_modulus_coeffs": (2, 0, 0, 0, 0, 0, -2, 0, 0, 0, 0, 0),  # Implied + [1]
+    },
 }   # type: Field_Properties

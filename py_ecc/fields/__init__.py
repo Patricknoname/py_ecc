@@ -57,6 +57,25 @@ class bls12_381_FQ2(FQ2, bls12_381_FQP):
 class bls12_381_FQ12(FQ12, bls12_381_FQP):
     field_modulus = field_properties["bls12_381"]["field_modulus"]
     FQ12_MODULUS_COEFFS = field_properties["bls12_381"]["fq12_modulus_coeffs"]
+#
+# bls12_377 curve fields
+#
+class bls12_377_FQ(FQ):
+    field_modulus = field_properties["bls12_377"]["field_modulus"]
+
+
+class bls12_377_FQP(FQP):
+    field_modulus = field_properties["bls12_377"]["field_modulus"]
+
+
+class bls12_377_FQ2(FQ2, bls12_377_FQP):
+    field_modulus = field_properties["bls12_377"]["field_modulus"]
+    FQ2_MODULUS_COEFFS = field_properties["bls12_377"]["fq2_modulus_coeffs"]
+
+
+class bls12_377_FQ12(FQ12, bls12_377_FQP):
+    field_modulus = field_properties["bls12_377"]["field_modulus"]
+    FQ12_MODULUS_COEFFS = field_properties["bls12_377"]["fq12_modulus_coeffs"]
 
 
 #
