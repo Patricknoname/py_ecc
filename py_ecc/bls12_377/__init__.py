@@ -6,7 +6,7 @@ from py_ecc.fields import (  # noqa: F401
     bls12_377_FQ2 as FQ2,
     bls12_377_FQ12 as FQ12,
 )
-from .bls12_381_curve import (  # noqa: F401
+from .bls12_377_curve import (  # noqa: F401
     field_modulus,
     add,
     double,

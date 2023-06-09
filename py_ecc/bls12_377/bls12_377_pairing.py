@@ -1,9 +1,9 @@
 from __future__ import absolute_import
 
 from py_ecc.fields import (
-    bls12_381_FQ as FQ,
-    bls12_381_FQ2 as FQ2,
-    bls12_381_FQ12 as FQ12,
+    bls12_377_FQ as FQ,
+    bls12_377_FQ2 as FQ2,
+    bls12_377_FQ12 as FQ12,
 )
 from py_ecc.fields.field_properties import (
     field_properties,
@@ -14,7 +14,7 @@ from py_ecc.typing import (
     Point2D,
 )
 
-from .bls12_381_curve import (
+from .bls12_377_curve import (
     double,
     add,
     multiply,
